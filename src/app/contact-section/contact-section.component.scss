@@ -1,0 +1,69 @@
+.container-big {
+    height: 900px;
+    padding-top: 99px;
+    padding-bottom: 110px;
+    background-color: #F6F8FE;
+    
+    .map {
+        position: relative;
+        width: 1422px;
+        margin-left: 0;
+        img {
+            width: 1422px;
+            height: 691px;
+            margin-left: 0;
+        }
+        .address{
+            position: absolute;
+            width: 351px;
+            height: 152px;
+            background-color: white;
+            left: 50%;
+            transform: translate(-50%);
+            top: 100px;
+            padding: 10px;
+            div {
+                display: inline-block;
+                width: 140px;
+            }
+            img {
+                width: 130px;
+                height: 131px;
+                float: right;
+            }
+        }
+        .location {
+            position: absolute;
+            width: 67px;
+            height: 81px;
+            left: 50%;
+            transform: translate(-50%);
+            top: 284px;
+        }
+        .inputs {
+            position: absolute;
+            width: 540px;
+            left: 970px;
+            top: 171px;
+            div {
+                background-color: white;
+                height: 80px;
+                padding: 20px; 
+                margin-bottom: 20px;
+                label {
+                    margin: 0;
+                }
+                input {
+                    display: block;
+                    width: 100%;
+                    font-weight: 700;
+                    border: none;
+                }
+            }
+            div.message {
+                height: 150px;
+            }
+        }
+    }
+    
+}
